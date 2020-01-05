@@ -5,9 +5,63 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-style: italic;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+button{
+  background-color: rgb(7, 126, 126);
+  box-sizing: inherit;
+  box-shadow: inherit;
+  border: inset;
+  size: initial;
+  shape-outside: initial;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 3vh;
+}
+
+ul{
+  font-weight: inherit;
+  font-size: 20px;
+  scroll-padding-inline: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-break: initial;
+  list-style-type: none;
+  font-weight:bold;
+
+}
+
+form{
+  font-size: 40px;
+  box-sizing: initial;
+  box-shadow: 50px;
+
+}
+input{
+  border-color: lightcoral;
+  background-color: rgb(12, 1, 1);
+  box-sizing: inherit;
+  box-shadow: inherit;
+  border: inset;
+  shape-outside: initial;
+  font-weight: bold;
+  font-size: 30px;
+  width: 600px;
+  height: 50px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 3vh;
+}
+body{
+  background-image: url("food.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: lighter;
 }
